@@ -6,14 +6,14 @@ The stock analysis and refactoring the code
 ---
 ## Overview of the project	
 The purpose behind the project is to help the end-user to process the stock data and determine whether they are worth investing in by calculating total volume traded for the year and yearly return for each stock.
-The data set consist of stock tickers with their daily volumes, high & lows, open & closing prices, and adjusted closing price for both 2017 & 2018.
+The data set consist of stock tickers with their daily volumes, high & lows, open & closing prices, and adjusted closing price for both **2017**  & **2018**.
 In the previously written code, there was room for code improvement to make the code run faster, efficiently (low memory utilization), and making the code easy to understand for anyone who want to refactor it even further and that’s what I have tried to achieve in this project.
 
-##Results
+## Results
 
 ### Processing time 
 
-After refactoring the code, the processing time was reduced to 0.179 seconds and saved us 2.761 seconds for 2017 and 0.488 seconds for 2018. (see below)
+After refactoring the code, the processing time was reduced to 0.179 seconds and saved us **2.761 seconds** for 2017 and **0.488 seconds** for 2018. (see below)
 
 #### Original VBA Script
 
@@ -33,7 +33,7 @@ The previous code used nested for loop to calculate our desired parameter’s i.
 ![Old_VBA_Script](https://user-images.githubusercontent.com/82117986/116796705-b43e2300-aaac-11eb-828d-438cd49b80eb.png)
 
 ### Refactored Code.
-The code was refactored to create arrays for all of them to save time (see below). Moreover, the whole code used single variable “I” for all the FOR loops and made it easier for any person to understand the true flow of the code. It is now replaced with unique codes for every FOR loop. (Refer to the code in vba) in the repository.
+The code was refactored to create arrays for all of them to save time (see below). Moreover, the whole code used single variable “I” for all the **FOR loops** and made it easier for any person to understand the true flow of the code. It is now replaced with unique codes for every FOR loop. (Refer to the code in vba) in the repository.
 
 
 ![New_Script_1](https://user-images.githubusercontent.com/82117986/116796713-c7e98980-aaac-11eb-8795-cefc8125f4ac.png)
@@ -41,7 +41,7 @@ The code was refactored to create arrays for all of them to save time (see below
 
 ### Stock Performances (2017 vs 2018)
 The dataset is available for 2 years only and for the scrips in consideration. It looks like 2018 has been a bad years for the stock market as a whole but only two scrips remained in bullish in 2018. i.e., ENPH and RUN.
-Both the scrips didn’t perform as good as preceding year (2017) but at least remained strong when the whole market was performing bad. This makes my stock recommendation as buy for both ENPH & RUN.
+Both the scrips didn’t perform as good as preceding year (2017) but at least remained strong when the whole market was performing bad. This makes my stock recommendation as buy for both **ENPH & RUN.**
 
 ![Stock_Performance_2017+2018png](https://user-images.githubusercontent.com/82117986/116796719-d9cb2c80-aaac-11eb-8421-24eb85acf3e7.png)
 
